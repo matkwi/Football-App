@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="VBox" alignment="TOP_CENTER" prefHeight="580.0" prefWidth="452.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Control Panel">
+               <items>
+                  <MenuItem fx:id="adminMenu" mnemonicParsing="false" text="Admin Panel" />
+                  <MenuItem fx:id="exitMenu" mnemonicParsing="false" text="Exit" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+      <Label alignment="CENTER" prefHeight="119.0" prefWidth="453.0" text="Football App" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="46.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Button fx:id="scoreButton" mnemonicParsing="false" prefHeight="61.0" prefWidth="199.0" text="Scoreboards">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="timeButton" mnemonicParsing="false" prefHeight="61.0" prefWidth="199.0" text="Timetables">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="teamsButton" mnemonicParsing="false" prefHeight="61.0" prefWidth="199.0" text="Teams">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="statsButton" mnemonicParsing="false" prefHeight="61.0" prefWidth="199.0" text="Statistics">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

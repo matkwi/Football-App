@@ -1,0 +1,63 @@
+#VBox {
+    -fx-background-color: #2AC134;
+}
+
+.button {
+    -fx-background-color: silver;
+    -fx-cursor: hand;
+}
+
+.menu-bar {
+    -fx-background-color: silver;
+}
+
+.menu-button {
+    -fx-background-color: silver;
+    -fx-cursor: hand;
+}
+
+.table-view {
+    -fx-background-color: silver;
+    -fx-fixed-cell-size: 41.15;
+}
+
+.list-view {
+    -fx-background-color: silver;
+    -fx-border-color: white;
+}
+
+.list-cell {
+    -fx-background-color: silver;
+     -fx-font: 18px "Arial";
+    -fx-border-color: white;
+ }
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0.0%, #207BCF 25.0%, #1973C9 75.0%, #0A65BF 100.0%);
+    -fx-text-fill: white;
+}
+
+#tableTeam {
+    -fx-fixed-cell-size: 25.15;
+}
+
+#table {
+    -fx-cursor: hand;
+}
+
+#listView {
+    -fx-cursor: hand;
+}
+
+#listViewStats1 {
+    -fx-border-color: silver;
+}
+
+#listViewStats2 {
+    -fx-border-color: silver;
+}
+
+.check-box {
+    -fx-background-color: silver;
+}
+
